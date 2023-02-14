@@ -116,14 +116,17 @@ footer {
     z-index: -100;
 }
 
-
-/* Home */
 .background-home,
 .background-bio {
     background-image: url(/svg-backgrounds/layered-peaks-4.svg);
     opacity: 80%;
 }
 
+.background-experience {
+    background-image: url(/svg-backgrounds/wave-2.svg);
+}
+
+/* Home */
 header.empty {
     height: 80px;
 }
@@ -208,3 +211,25 @@ blockquote p:last-of-type {
 }
 
 /* Experience */
+#experience main {
+    display: flex;
+    flex-direction: column;
+}
+
+.exp-item {
+    padding: 10px 0px 20px 0;
+}
+
+.exp-item h3 {
+    font-size: 3rem;
+    margin: 15px 0;
+}
+
+.exp-item h4 {
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+.exp-item p {
+    font-size: 2rem;
+}
