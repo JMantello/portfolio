@@ -3,7 +3,9 @@ html,
 body {
     margin: 0;
     padding: 0;
-    /* height: 100vh; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 html {
@@ -67,7 +69,8 @@ li {
 
 
 /* Home */
-.background-home {
+.background-home,
+.background-bio {
     background-image: url(/svg-backgrounds/layered-peaks-4.svg);
     opacity: 80%;
 }
@@ -84,12 +87,6 @@ header.empty {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-}
-
-#message {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 #profile-picture {
@@ -119,6 +116,22 @@ blockquote p:last-of-type {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+}
+
+.btn {
+    background-color: black;
+    font-size: 2.5rem;
+    padding: 10px 15px;
+    color: rgb(20, 207, 20);
+    border: 2px solid rgb(22, 159, 22);
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 500ms;
+}
+
+.btn:hover {
+    background-color: rgb(22, 159, 22);
+    color: black;
 }
 
 @media screen and (max-width: 800px) {
@@ -184,8 +197,8 @@ nav a:hover,
 
 #bio-wrapper {
     display: flex;
-    width: 75%;
-    margin: auto;
+    width: 70%;
+    margin: 0 auto;
 }
 
 #bio-wrapper main {
@@ -201,50 +214,9 @@ main {
     flex: 1;
 }
 
-
-
 footer {
-    margin-top: 10px;
+    margin-top: auto;
     text-align: center;
 }
 
-
-
-
-.btn {
-    background-color: black;
-    font-size: 2.5rem;
-    padding: 10px 15px;
-    color: rgb(20, 207, 20);
-    border: 2px solid rgb(22, 159, 22);
-    text-decoration: none;
-    border-radius: 30px;
-    transition: 500ms;
-}
-
-.btn:hover {
-    background-color: rgb(22, 159, 22);
-    color: black;
-}
-
-
 /* Utility classes */
-.align-right {
-    text-align: right
-}
-
-.w-75 {
-    width: 75%;
-}
-
-.d-flex {
-    display: flex;
-}
-
-.justify-right {
-    justify-content: right;
-}
-
-.justify-center {
-    justify-content: center;
-}
