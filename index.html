@@ -13,19 +13,31 @@
     <title>Jonathan Mantello</title>
 </head>
 
-<body>
-    <div class="spacer background"></div>
+<body id="home">
+    <div class="spacer background-home"></div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bio.html">Bio</a></li>
+            <li><a href="#">Experience</a></li>
+            <li><a href="#">Portfolio</a></li>
+        </ul>
+    </nav>
     <header class="empty"></header>
     <main>
-        <h1 id="intro">Hi, I'm Jonathan Mantello, a software developer from Seattle <img
-                src="/Imgs/Photobook_Jonathan_Mantello_Square.jpg" alt="Jonathan Mantello Profile Picture"
-                id="profile-picture"></h1>
-        <blockquote class="d-flex justify-center">
-            "In this life we cannot do great things. We can only do small things with great love." <br>
+        <div id="intro">
+            <div id="message">
+                <h1>I'm <br> Jonathan Mantello</h1>
+                <h2>A Software Developer from Seattle</h2>
+            </div>
+            <img src="./images/profile-pic-transparent-7.png" alt="Jonathan Mantello Profile Picture"
+                id="profile-picture">
+        </div>
+        <blockquote>
+            <p>"In this life we cannot do great things. We can only do small things with great love."</p>
+            <p>-Mother Teresa</p>
         </blockquote>
-        <blockquote class="align-right w-75">-Mother Teresa</blockquote>
-        <br>
-        <div class="d-flex justify-right">
+        <div id="btn-wrapper">
             <a href="bio.html" class="btn">View my bio</a>
         </div>
     </main>
