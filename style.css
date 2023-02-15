@@ -5,7 +5,8 @@
 
 html,
 body {
-    width: 100%;
+    min-height: 100vh;
+    min-width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -13,7 +14,6 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    min-height: 650px;
 }
 
 html {
@@ -130,6 +130,7 @@ li {
 }
 
 footer {
+    padding-top: 70px;
     margin-top: auto;
     text-align: center;
 }
@@ -156,7 +157,6 @@ footer {
 
 .background-experience {
     background-image: url(/svg-backgrounds/wave-6.svg);
-    aspect-ratio: 700/1600;
 
 }
 
