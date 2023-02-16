@@ -133,6 +133,7 @@ footer {
     padding-top: 70px;
     margin-top: auto;
     text-align: center;
+    color: #b9b9b9;
 }
 
 /* Background */
@@ -157,6 +158,11 @@ footer {
 
 .background-experience {
     background-image: url(/svg-backgrounds/wave-6.svg);
+
+}
+
+#portfolio {
+    background-image: url(/svg-backgrounds/low-poly-grid-7.svg);
 
 }
 
@@ -271,4 +277,58 @@ blockquote p:last-of-type {
 
 .exp-item p {
     font-size: 2rem;
+}
+
+/* Portfolio */
+#projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.project-card {
+    padding: 3px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    border-radius: 40px;
+}
+
+
+.project-content {
+    background-color: black;
+    padding: 25px;
+    border-radius: 36px;
+}
+
+.project-card h2 {
+    margin: 0;
+}
+
+/* Card borders */
+.project-card:nth-child(1) {
+    background: linear-gradient(90deg, rgb(126, 123, 190) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.project-card:nth-child(2) {
+    background: rgb(33, 150, 0);
+    background: linear-gradient(90deg, rgba(33, 150, 0, 1) 0%, rgba(18, 9, 121, 1) 49%, rgba(107, 0, 136, 1) 100%);
+}
+
+.project-card:nth-child(3) {
+    background: rgb(0, 59, 150);
+    background: linear-gradient(90deg, rgba(0, 59, 150, 1) 0%, rgba(186, 25, 25, 1) 59%, rgba(24, 5, 29, 1) 100%);
+}
+
+.project-card:nth-child(4) {
+    background: rgb(42, 102, 16);
+    background: linear-gradient(90deg, rgba(42, 102, 16, 1) 0%, rgba(228, 238, 47, 1) 43%, rgba(18, 106, 102, 1) 100%);
+}
+
+.project-card:nth-child(5) {
+    background: rgb(202, 255, 179);
+    background: linear-gradient(90deg, rgba(202, 255, 179, 1) 0%, rgba(42, 147, 148, 1) 43%, rgba(79, 92, 115, 1) 100%);
+}
+
+.project-card:nth-child(6) {
+    background: rgb(144, 142, 118);
+    background: linear-gradient(90deg, rgba(144, 142, 118, 1) 0%, rgba(188, 224, 224, 1) 43%, rgba(153, 69, 140, 1) 100%);
 }
