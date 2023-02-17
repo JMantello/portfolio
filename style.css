@@ -215,7 +215,7 @@ blockquote p:last-of-type {
 }
 
 .btn:hover {
-    background-color: rgba(10, 173, 10, 0.922);
+    background-color: rgb(4, 121, 4);
 }
 
 /* Bio */
